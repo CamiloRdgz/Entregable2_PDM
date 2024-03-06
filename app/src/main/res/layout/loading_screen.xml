@@ -9,19 +9,11 @@
     android:orientation="vertical"
     android:gravity="center_vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Loading App..." />
-
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationView"
-        android:layout_width="match_parent"
+        android:id="@+id/animation"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:lottie_rawRes="@raw/animation"
         app:lottie_autoPlay="true"
-        app:lottie_loop="true"/>
-
-
-
+        app:lottie_loop="false"/>
 </LinearLayout>

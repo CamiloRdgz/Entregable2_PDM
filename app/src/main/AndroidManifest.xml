@@ -13,18 +13,19 @@
         android:theme="@style/Theme.Entregable2_PDM"
         tools:targetApi="31">
         <activity
+            android:name=".ResultScreen"
+            android:exported="false" />
+        <activity
             android:name=".Calculator"
+            android:exported="true"></activity>
+        <activity
+            android:name=".LoadingScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".LoadingScreen"
-            android:exported="true">
-
         </activity>
     </application>
 
